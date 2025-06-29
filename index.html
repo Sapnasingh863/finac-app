@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset View Product - Portfolio Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Asset View Product</h1>
+            <div class="last-update">
+                Last Updated: <span id="lastUpdate">--</span>
+            </div>
+        </header>
+
+        <div class="dashboard">
+            <!-- User Account Section -->
+            <div class="card user-info">
+                <h2>Account Information</h2>
+                <div class="user-details">
+                    <p><strong>User:</strong> <span id="userName">John Doe</span></p>
+                    <p><strong>Account ID:</strong> <span id="accountId">ACC-12345</span></p>
+                    <p><strong>Total Portfolio Value:</strong> <span id="totalValue">$0.00</span></p>
+                </div>
+            </div>
+
+            <!-- Portfolio Summary -->
+            <div class="card portfolio-summary">
+                <h2>Portfolio Summary</h2>
+                <div class="summary-grid">
+                    <div class="summary-item">
+                        <h3>Stocks</h3>
+                        <p class="value" id="stocksValue">$0.00</p>
+                        <p class="percentage" id="stocksPercentage">0%</p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>Mutual Funds</h3>
+                        <p class="value" id="mutualFundsValue">$0.00</p>
+                        <p class="percentage" id="mutualFundsPercentage">0%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assets Holdings -->
+            <div class="card assets-table">
+                <h2>Asset Holdings</h2>
+                <div class="table-container">
+                    <table id="assetsTable">
+                        <thead>
+                            <tr>
+                                <th>Asset Name</th>
+                                <th>Type</th>
+                                <th>Quantity</th>
+                                <th>Current Price</th>
+                                <th>Market Value</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody id="assetsTableBody">
+                            <!-- Dynamic content will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Real-time Data Sources Status -->
+            <div class="card data-sources">
+                <h2>Data Sources Status</h2>
+                <div class="sources-grid">
+                    <div class="source-item">
+                        <div class="source-name">Stock Exchange API</div>
+                        <div class="status-indicator" id="stockApiStatus">
+                            <span class="status-dot active"></span>
+                            <span>Active</span>
+                        </div>
+                    </div>
+                    <div class="source-item">
+                        <div class="source-name">Mutual Fund API</div>
+                        <div class="status-indicator" id="mfApiStatus">
+                            <span class="status-dot active"></span>
+                            <span>Active</span>
+                        </div>
+                    </div>
+                    <div class="source-item">
+                        <div class="source-name">Market Data Provider</div>
+                        <div class="status-indicator" id="marketDataStatus">
+                            <span class="status-dot active"></span>
+                            <span>Active</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Update Frequency Info -->
+            <div class="card update-info">
+                <h2>System Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Update Frequency:</strong> Every 10 minutes
+                    </div>
+                    <div class="info-item">
+                        <strong>Next Update:</strong> <span id="nextUpdate">--</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>System Status:</strong> 
+                        <span class="status-badge online">Online</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
