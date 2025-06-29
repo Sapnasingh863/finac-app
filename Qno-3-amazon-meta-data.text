@@ -1,0 +1,126 @@
+Metadata Stored for a Shirt
+1. Basic Information
+Item ID / ASIN (Amazon Standard Identification Number)
+
+Product Name/Title: e.g., “Men’s Slim Fit Casual Shirt – Blue”
+
+Brand Name
+
+Category/Subcategory: e.g., Clothing > Men > Shirts > Casual
+
+2. Descriptive Attributes
+Color: Blue
+
+Size: S, M, L, XL, XXL
+
+Material: Cotton, Polyester, Linen, etc.
+
+Fit Type: Regular, Slim, Relaxed
+
+Sleeve Length: Short, Long, Sleeveless
+
+Neck Type: Collared, V-neck, Round neck
+
+Pattern: Solid, Striped, Checked
+
+Gender: Male/Female/Unisex
+
+3. Logistics & Inventory
+SKU (Stock Keeping Unit)
+
+Inventory Level
+
+Supplier/Vendor Info
+
+Warehouse Location
+
+Shipping Weight & Dimensions
+
+4. Pricing & Offers
+Retail Price
+
+Discount Price
+
+Currency
+
+Sales Rank
+
+Prime Eligibility
+
+Bundle Offers / Promotions
+
+5. Media Assets
+Product Images (front, back, zoomed-in views)
+
+Product Videos
+
+360° View Models
+
+6. Customer Experience
+Ratings & Reviews
+
+Return Policy
+
+Questions & Answers
+
+Fit Feedback: e.g., "Runs Small", "True to Size"
+
+7. Compliance & Legal
+Country of Origin
+
+Care Instructions
+
+Hazardous Material? (usually N/A for shirts)
+
+Regulatory Certifications (if any)
+
+8. System Use
+Date Added
+
+Last Updated
+
+Popularity Score
+
+Search Keywords
+
+Tags for ML/AI models
+
+ How This Metadata Is Used
+ Search and Discovery
+Metadata like title, color, size, brand, and keywords improve search relevance and filtering.
+
+When users search “Blue Cotton Slim Fit Men’s Shirt,” the search engine queries metadata.
+
+ Recommendation Systems
+Collaborative filtering and ML models use attributes (like brand, material, price range) to suggest similar or complementary items.
+
+ Inventory and Fulfillment
+Metadata like SKU, warehouse location, and stock levels helps in:
+
+Real-time inventory tracking
+
+Efficient order routing to closest warehouse
+
+Restocking and supplier management
+
+Customer Experience
+Size charts, fit feedback, and reviews guide purchase decisions.
+
+Return policy metadata dictates post-purchase workflows.
+
+ Pricing and Offers
+Dynamic pricing engines analyze historical price metadata, demand, and competitor prices to update listings.
+
+Promotions are triggered via metadata flags (e.g., “10% off this week”).
+
+ Analytics and Reporting
+Teams use metadata to:
+
+Track sales trends (e.g., “Blue shirts in size L sold 20% more this summer”)
+
+Understand customer preferences
+
+Evaluate performance across product categories
+
+ Legal and Compliance
+Metadata ensures products comply with local regulations and trade policies (e.g., imported cotton from specific regions).
